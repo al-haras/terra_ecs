@@ -7,4 +7,4 @@ RUN apt-get install nfs-common -y
 RUN apt-get install openjdk-8-jre-headless -y
 RUN mkdir /efs
 RUN wget https://raw.githubusercontent.com/al-haras/terra_ecs/master/server.sh /tmp
-RUN chmod +x server.sh
+RUN chmod +x /tmp/server.sh
